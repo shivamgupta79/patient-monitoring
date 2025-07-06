@@ -29,6 +29,8 @@ A real-time patient health monitoring and indoor location tracking system built 
 
 > ⚠️ Use pull-up resistor for DS18B20 and ensure MAX30100 uses default I2C pins.
 
+![Circuit Diagram](https://github.com/user-attachments/assets/1d3abc8a-7221-4e79-9d4e-4a6d090cbe96)
+
 ---
 
 ## 🧠 Features
