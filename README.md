@@ -44,7 +44,7 @@ A real-time patient health monitoring and indoor location tracking system built 
 
 ## 🌐 Data Sent Format
 
-```json
+
 {
   "temperature": 36.6,
   "heartrate": 72.5,
@@ -53,7 +53,9 @@ A real-time patient health monitoring and indoor location tracking system built 
   "rssi": -62,
   "location": "Room A"
 }
-📊 ThingsBoard Widgets Setup
+---
+
+##📊 ThingsBoard Widgets Setup
 Widget Type	Key	Suggested Range
 Gauge	temperature	30 – 45 °C
 Gauge	heartrate	40 – 130 bpm
