@@ -1,1 +1,25 @@
+# Arduino Libraries
+MAX30100_PulseOximeter@1.2.0          # For heart rate and SpO2 sensor (MAX30100)
+OneWire@2.3.6                          # Required for DS18B20 temperature sensor
+DallasTemperature@3.9.0               # For working with DS18B20 sensor
+NimBLE-Arduino@1.4.1                  # For BLE scanning and RSSI (by h2zero)
 
+# ESP32 Board Core (via Board Manager URL)
+esp32@2.0.11                           # ESP32 core by Espressif Systems
+
+🔧 ESP32 Board Manager URL
+Add this to File > Preferences > Additional Board URLs in Arduino IDE: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Then install:
+Board: ESP32 by Espressif Systems
+Version: 2.0.11 (or higher)
+
+📝 How to Use
+There is no native pip install -r requirements.txt for Arduino. Instead:
+Open Arduino IDE
+Go to Sketch > Include Library > Manage Libraries
+Search and install the listed libraries one by one (with correct versions)
+
+arduino-cli lib install "MAX30100_PulseOximeter@1.2.0"
+arduino-cli lib install "OneWire@2.3.6"
+arduino-cli lib install "DallasTemperature@3.9.0"
+arduino-cli lib install "NimBLE-Arduino@1.4.1"
